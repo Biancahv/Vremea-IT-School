@@ -1,0 +1,92 @@
+/* Customizam Bootstrap */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #2bb686;
+  border-color: #2bb686;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #fbb44c !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.bg-primary {
+  background-color: #141e4c !important;
+}
+
+.bg-secondary {
+  background-color: #dfedf5 !important;
+}
+
+.bg-dark {
+  background-color: #101d42 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* Adaugam font-ul nostru */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Header */
+header {
+  height: 30vh;
+}
+
+.weather-forecast-box > * {
+  flex: 1;
+}
+
+#progress {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  color: #001a2e;
+}
